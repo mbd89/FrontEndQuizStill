@@ -1,0 +1,168 @@
+body {
+    font-family: 'Rubik';
+    background-image: url('assets/images/pattern-background-mobile-dark.svg');
+    background-repeat: no-repeat;
+    background-color: hsl(216, 28%, 27%);
+    color: white;
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+
+}
+
+header {
+    padding-block-end: none;
+    margin-block-end: 0;
+}
+
+.show {
+    display: flex;
+}
+
+.container {
+    width: clamp(20.4375rem, 2.1056338028169rem + 78.21596244131456vw, 72.5rem);
+
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-self: start;
+
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-size: clamp(2.5rem, 1.971830985915493rem + 2.253521126760563vw, 4rem);
+}
+
+h1 span {
+    font-weight: lighter;
+}
+
+.choice {
+    font-size: 0.875rem;
+    font-size: clamp(0.875rem, 0.7429577464788732rem + 0.5633802816901408vw, 1.25rem);
+    color: #ABC1E1;
+    padding-block-end: 2.5em;
+
+}
+
+.questionNum {
+    font-size: 0.875rem;
+    font-size: clamp(0.875rem, 0.7429577464788732rem + 0.5633802816901408vw, 1.25rem);
+    color: #ABC1E1;
+    padding-block-end: 2.5em;
+    font-style: italic;
+    margin-bottom: -1em;
+}
+
+
+.questionStyle {
+    font-weight: 120%;
+    font-size: 1.25rem;
+    font-size: clamp(1.25rem, 0.9642857142857143rem + 1.4285714285714286vw, 2.25rem);
+    margin-top: 0;
+}
+
+ul{
+    display: grid;
+}
+
+ul,
+li {
+    list-style-position: inside;
+    margin: 0;
+    padding: 0;
+
+}
+
+li:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+li {
+    background-color: #3B4D66;
+    border-radius: 12px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-block-end: 12px;
+    padding: 0.5em;
+}
+
+.subject-icon.html {
+    background-color: #FFF1E9;
+    border-radius: 5px;
+}
+
+.subject-icon.css {
+    background-color: #E0FDEF;
+    border-radius: 5px;
+}
+
+.subject-icon.js {
+    background-color: #EBF0FF;
+    border-radius: 5px;
+}
+
+.subject-icon.accessibility {
+    background-color: #F6E7FF;
+    border-radius: 5px;
+}
+
+/*
+FFF1E9 html icon bg 
+E0FDEF css bg color
+EBF0FF js icon bg 
+F6E7FF access icon bg 
+
+
+*/
+
+.option {
+    background: #F4F6FA;
+    color: #626C7F;
+    border-radius: 6px;
+    width: 40px;
+    height: 40px;
+    display: grid;
+    place-items: center;
+}
+
+.blueBg {
+    background-color: #A729F5;
+    color: white;
+}
+
+.blueBord {
+    border: 2px solid #A729F5;
+    ;
+}
+
+.failure {
+    font-size: 1.125rem;
+    font-size: clamp(1.125rem, 1.05rem + 0.375vw, 1.5rem);
+    color:white;
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    place-self: center;
+    padding-block-start: 1em;
+}
+
+.hidden {
+    display: none;
+}
+
+.btn {
+    background-color: #A729F5;
+    color: white;
+    border-radius: 12px;
+    padding-block: 1.1875em;
+    width: 100%;
+    border: none;
+
+}
